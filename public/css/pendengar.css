@@ -1,0 +1,498 @@
+body {
+        background-color: #e7e6e6;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .sidebar {
+        background-color: #024950;
+        color: white;
+        min-height: 100vh;
+        padding: 20px 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sidebar-header {
+        padding: 7px 10px;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+
+    .sidebar-header h4 {
+        color: white;
+        font-weight: bold;
+        margin: 0;
+        font-size: 22px;
+        text-align: center;
+    }
+    
+    .logo-footer {
+        max-width: 120px;
+        height: auto;
+        margin-top: 10px;
+    }
+
+
+    .sidebar-menu .badge {
+        font-size: 0.75rem;
+        font-weight: 600;
+        padding: 0.25em 0.4em;
+        border-radius: 10px;
+    }
+
+    .sidebar-menu {
+        padding: 0 15px;
+        flex-grow: 1;
+    }
+
+    .sidebar-menu a {
+        color: black;
+        background-color: #024950;
+        display: block;
+        padding: 12px 15px;
+        margin-bottom: 8px;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    }
+
+    .sidebar-menu a i {
+        margin-right: 12px;
+        width: 20px;
+        text-align: center;
+    }
+
+    .main-content {
+        padding: 20px;
+    }
+
+    .card {
+        border-radius: 10px;
+        border: none;
+        box-shadow: 0 4px 6px rgba(255, 0, 0, 0.1);
+        margin-bottom: 20px;
+        background-color: white;
+    }
+
+    .card-header {
+        background-color: white;
+        border-bottom: 1px solid #eee;
+        padding: 15px 20px;
+        border-radius: 10px 10px 0 0 !important;
+        font-weight: bold;
+    }
+
+    .card-title {
+        font-weight: 600;
+        margin: 0;
+    }
+
+    .stat-card {
+        text-align: center;
+        padding: 20px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin-bottom: 15px;
+    }
+
+    .stat-number {
+        font-size: 32px;
+        font-weight: 700;
+        color: #2f3640;
+        margin-bottom: 5px;
+    }
+
+    .stat-label {
+        color: #7f8c8d;
+        font-size: 14px;
+    }
+
+    .header {
+        background-color: white;
+        padding: 15px 20px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    .search-bar {
+        flex-grow: 1;
+        max-width: 500px;
+        margin: 0 20px;
+    }
+
+    .search-bar .form-control {
+        border-radius: 20px;
+        padding-left: 40px;
+        background-color: #ffffff;
+        border: none;
+    }
+
+    .search-bar .search-icon {
+        position: absolute;
+        z-index: 2;
+        display: block;
+        width: 2.375rem;
+        height: 2.375rem;
+        line-height: 2.375rem;
+        text-align: center;
+        pointer-events: none;
+        color: #aaa;
+    }
+
+    .navbar-header {
+        background-color: white !important;
+        color: white;
+    }
+
+    .navbar-header .nav-link {
+        color: white !important;
+    }
+
+    .navbar-header .form-control {
+        background-color: rgba(255, 255, 255, 0.2);
+        color: white;
+    }
+
+    .navbar-header .form-control::placeholder {
+        color: rgba(255, 255, 255, 0.7);
+    }
+
+    .navbar-header .search-icon {
+        color: black;
+    }
+
+    .nav-icons {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-icons .nav-item {
+        margin-left: 15px;
+        position: relative;
+    }
+
+    .nav-icons .nav-link {
+        color: #495057;
+        font-size: 1.1rem;
+        padding: 5px 10px;
+        border-radius: 50%;
+        width: 36px;
+        height: 36px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav-icons .nav-link:hover {
+        background-color: #f0f0f0;
+    }
+
+
+    
+
+    .user-profile {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .user-profile img {
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+
+    .user-profile .user-name {
+        margin-right: 5px;
+        font-weight: 500;
+    }
+
+    .dropdown-menu {
+        border: none;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        padding: 10px 0;
+    }
+
+    .dropdown-item {
+        padding: 8px 20px;
+        color: #495057;
+    }
+
+    .dropdown-item:hover {
+        background-color: #f8f9fa;
+        color: #024950;
+    }
+
+    .dropdown-divider {
+        margin: 5px 0;
+    }
+
+    .month-list {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 0;
+    }
+
+    .month-item {
+        padding: 5px 10px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .month-item:hover {
+        background-color: #f0f0f0;
+    }
+
+    .dashboard-section {
+        margin-bottom: 30px;
+    }
+
+    .dashboard-section h2 {
+        font-size: 18px;
+        margin-bottom: 15px;
+        color: #2f3640;
+    }
+
+    .sidebar-menu a {
+        color: black;
+        background-color: white;
+        display: block;
+        padding: 10px 15px;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+    }
+
+    .sidebar-menu a:hover {
+        background-color: #967e68;
+        color: black;
+    }
+
+    .pendengar-text {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    /* Footer */
+.footer {
+    background-color: white;
+    color: black;
+    padding: 25px 0;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+}
+
+.footer .nav-link {
+    color: #000000 !important;
+    transition: color 0.3s;
+}
+
+.footer .nav-link:hover {
+    color: #ecf0f1 !important;
+}
+
+.copyright {
+    opacity: 0.8;
+    color: #000;
+}
+
+/* Warna khusus untuk link tim */
+.copyright a {
+    color: #fff;
+    text-decoration: none; /* Hilangkan underline */
+    transition: color 0.3s ease; /* Efek transisi */
+}
+
+.copyright a:hover {
+    color: #000; /* Warna saat hover */
+    text-decoration: underline; /* Tambahkan underline saat hover */
+}
+
+
+/* menu radio (search) */
+.container.py-4 {
+    margin-top: 80px; /* Sesuaikan dengan tinggi navbar */
+}
+
+
+    .hero-section {
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .hero-section h1 {
+        text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        font-size: 2.5rem;
+    }
+    
+    .hero-section .lead {
+        font-size: 1.25rem;
+        opacity: 0.9;
+    }
+    
+    .hero-section .form-control {
+        height: 50px;
+        box-shadow: none !important;
+    }
+    
+    .hero-section .btn {
+        height: 50px;
+        transition: all 0.3s ease;
+    }
+    
+    .hero-section .btn:hover {
+        background: #343a40;
+    }
+    
+    @media (max-width: 768px) {
+        .hero-section {
+            padding: 2rem 1rem !important;
+        }
+        
+        .hero-section h1 {
+            font-size: 2rem;
+        }
+        
+        .hero-section .lead {
+            font-size: 1.1rem;
+        }
+        
+        .hero-section .form-control,
+        .hero-section .btn {
+            height: 45px;
+        }
+    }
+
+/* Umum untuk badge notifikasi */
+.notif-count-badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(30%, -30%);
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    font-size: 12px;
+    min-width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding: 0 5px;
+    z-index: 10;
+}
+
+/* Bungkus dropdown notifikasi */
+.notif-dropdown-wrapper {
+    /* Hapus position: relative dari sini, biarkan Bootstrap yang mengelola atau sesuaikan di @media */
+    width: 340px; /* Lebar default untuk desktop */
+    border-radius: 12px;
+    overflow: hidden; /* Penting untuk clipping konten dan border-radius */
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1); /* Softer shadow */
+    /* Max height default untuk desktop, jika notifikasi banyak */
+    max-height: 450px;
+}
+
+.notif-header {
+    background-color: #f8f9fa; /* Light background for header */
+    border-bottom: 1px solid #eee; /* Subtle bottom border */
+}
+
+/* Bagian notifikasi yang bisa discroll */
+.notif-scrollable {
+    /* Hapus inline style max-height dan overflow-y: auto di HTML */
+    max-height: 360px; /* Default max-height untuk desktop */
+    overflow-y: auto;
+    padding: 0; /* Padding harus di item notifikasi, bukan di scrollable container */
+}
+
+.notif-group-heading {
+    background-color: #f0f2f5; /* Slightly darker background for group headings */
+    padding: 8px 15px; /* Add padding */
+    margin-top: 0; /* Remove top margin */
+    border-top: 1px solid #e9ecef;
+    border-bottom: 1px solid #e9ecef;
+    font-size: 0.85rem; /* Make heading slightly smaller */
+}
+
+.notif-item {
+    padding: 12px 15px; /* Comfortable padding */
+    border-bottom: 1px solid #f2f2f2; /* Light separator */
+    transition: background-color 0.2s ease;
+    display: flex; /* Gunakan flexbox untuk tata letak ikon dan teks */
+    align-items: flex-start; /* Selaraskan item di bagian atas */
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit text color */
+}
+
+.notif-item:last-child {
+    border-bottom: none; /* No border for the last item in a group */
+}
+
+.notif-item:hover {
+    background-color: #e9ecef; /* Subtle hover effect */
+}
+
+.unread-notif {
+    background-color: #eef7ff; /* Light blue for unread */
+    border-left: 4px solid #007bff; /* Primary color border for unread */
+    font-weight: 500; /* Slightly bolder for unread */
+}
+
+.unread-notif .notif-title {
+    color: #333; /* Slightly darker title for unread */
+}
+
+.notif-title {
+    font-size: 0.95rem;
+    margin-bottom: 2px;
+    color: #212529;
+}
+
+.notif-body {
+    font-size: 0.85rem;
+    line-height: 1.4;
+    color: #6c757d;
+    margin-top: 4px; /* Add a bit of space below the title */
+}
+
+.notif-time {
+    font-size: 0.75rem;
+    color: #999;
+    margin-top: 5px;
+}
+
+/* Footer tetap di bawah */
+.notif-footer {
+    border-top: 1px solid #eee;
+    padding: 10px 15px; /* Adjust padding */
+    background-color: #f8f9fa;
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    z-index: 5;
+}
+
+.notif-footer a {
+    text-decoration: none;
+    padding: 5px 8px;
+    border-radius: 5px;
+    transition: background-color 0.2s ease;
+}
+
+.notif-footer a.text-success:hover {
+    background-color: rgba(40, 167, 69, 0.1);
+}
+
+.notif-footer a.text-danger:hover {
+    background-color: rgba(220, 53, 69, 0.1);
+}

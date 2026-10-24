@@ -1,0 +1,35 @@
+[05-Nov-2025 22:59:58 Asia/Jakarta] PHP Fatal error:  Uncaught ReflectionException: Class "App\Exceptions\Handler" does not exist in /home/misk1443/public_html/misnfm.misntv.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:1017
+Stack trace:
+#0 /home/misk1443/public_html/misnfm.misntv.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(1017): ReflectionClass->__construct()
+#1 /home/misk1443/public_html/misnfm.misntv.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(890): Illuminate\Container\Container->build()
+#2 /home/misk1443/public_html/misnfm.misntv.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1077): Illuminate\Container\Container->resolve()
+#3 /home/misk1443/public_html/misnfm.misntv.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(334): Illuminate\Foundation\Application->resolve()
+#4 /home/misk1443/public_html/misnfm.misntv.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(1010): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home/misk1443/public_html/misnfm.misntv.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(890): Illuminate\Container\Container->build()
+#6 /home/misk1443/public_html/misnfm.misntv.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1077): Illuminate\Container\Container->resolve()
+#7 /home/misk1443/public_html/misnfm.misntv.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(821): Illuminate\Foundation\Application->resolve()
+#8 /home/misk1443/public_html/misnfm.misntv.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1057): Illuminate\Container\Container->make()
+#9 /home/misk1443/public_html/misnfm.misntv.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(289): Illuminate\Foundation\Application->make()
+#10 /home/misk1443/public_html/misnfm.misntv.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#11 /home/misk1443/public_html/misnfm.misntv.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#12 /home/misk1443/public_html/misnfm.misntv.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#14 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Exceptions\Handler] does not exist. in /home/misk1443/public_html/misnfm.misntv.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:1019
+Stack trace:
+#0 /home/misk1443/public_html/misnfm.misntv.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(890): Illuminate\Container\Container->build()
+#1 /home/misk1443/public_html/misnfm.misntv.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1077): Illuminate\Container\Container->resolve()
+#2 /home/misk1443/public_html/misnfm.misntv.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(334): Illuminate\Foundation\Application->resolve()
+#3 /home/misk1443/public_html/misnfm.misntv.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(1010): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home/misk1443/public_html/misnfm.misntv.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(890): Illuminate\Container\Container->build()
+#5 /home/misk1443/public_html/misnfm.misntv.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1077): Illuminate\Container\Container->resolve()
+#6 /home/misk1443/public_html/misnfm.misntv.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(821): Illuminate\Foundation\Application->resolve()
+#7 /home/misk1443/public_html/misnfm.misntv.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1057): Illuminate\Container\Container->make()
+#8 /home/misk1443/public_html/misnfm.misntv.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(289): Illuminate\Foundation\Application->make()
+#9 /home/misk1443/public_html/misnfm.misntv.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#10 /home/misk1443/public_html/misnfm.misntv.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#11 /home/misk1443/public_html/misnfm.misntv.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#12 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#13 {main}
+  thrown in /home/misk1443/public_html/misnfm.misntv.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 1019
